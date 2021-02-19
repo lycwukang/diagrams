@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T09:47:37.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="14.4.2" etag="pFgzgXnNtO0bCgnex9NY" type="github"><diagram id="3ZZgkMrMpcHuPMlteXBm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-19T10:05:21.153Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="ouBZiQXF1IsJ3TyzrK1J" version="14.4.2" type="github">
+  <diagram id="3ZZgkMrMpcHuPMlteXBm" name="第 1 页">
+    <mxGraphModel dx="1883" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pca6jnelLZogaGdT472p-1" value="Content-Service&lt;br&gt;短信、验证码、全局配置等资源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="203" y="350" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pca6jnelLZogaGdT472p-3" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pca6jnelLZogaGdT472p-2" target="Pca6jnelLZogaGdT472p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pca6jnelLZogaGdT472p-2" value="Mall-Job&lt;br&gt;商城端定时任务服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="300" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pca6jnelLZogaGdT472p-5" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pca6jnelLZogaGdT472p-4" target="Pca6jnelLZogaGdT472p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pca6jnelLZogaGdT472p-4" value="Scm-Mq&lt;br&gt;进销存处理异步任务服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="400" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pca6jnelLZogaGdT472p-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Pca6jnelLZogaGdT472p-6" target="Pca6jnelLZogaGdT472p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pca6jnelLZogaGdT472p-6" value="Mall-Api&lt;br&gt;商城端接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="203" y="130" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
