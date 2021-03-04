@@ -1,1 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T05:26:40.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="14.4.2" etag="nclraYHTe16BipS775TO" type="github"><diagram id="7-BjknyPTh8WhSLuoHJY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-04T07:45:35.236Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="_ypRM3qabOz3yKu2i3a2" version="14.4.2" type="github">
+  <diagram id="7-BjknyPTh8WhSLuoHJY" name="第 1 页">
+    <mxGraphModel dx="1051" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-2" value="优惠券&lt;br style=&quot;font-size: 22px&quot;&gt;1.优惠券使用条件：商品编号集合、商品分类集合&lt;br style=&quot;font-size: 22px&quot;&gt;2.优惠券使用规则：满多少元减多少元&lt;br style=&quot;font-size: 22px&quot;&gt;3.优惠券下单后优惠金额分摊到到商品明细&lt;br style=&quot;font-size: 22px&quot;&gt;4.商品详情页面增加领取功能&lt;br style=&quot;font-size: 22px&quot;&gt;5.账户中心增加领券中心，区分待领取和已领取&lt;br&gt;6.优惠券存在有效期、开始领券时间、发放数量、&lt;font color=&quot;#f19c99&quot;&gt;一人只可以领取一次&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="96" y="40" width="636" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-3" value="Coupon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="96" y="320" width="270" height="358" as="geometry">
+            <mxRectangle x="96" y="320" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-4" value="+ id : Long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-28" value="+ createDate : Date 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-29" value="+ modifyDate: Date 修改时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-5" value="+ name : String 优惠券名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="104" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-24" value="+ show_name : String 优惠券前台展示名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="130" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-6" value="+ begin : Date 优惠券有效开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="156" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-7" value="+ end : Date 优惠券有效结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="182" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-22" value="+ receive_start : Date 优惠券可领取时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="208" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-23" value="+ count : Integer 发放数量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="238" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-26" value="+ provideCount : Integer 已发放数量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="268" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-25" value="+ limit : Integer 使用条件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="298" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-27" value="+ amount : Integer 抵扣金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-3">
+          <mxGeometry y="328" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-18" value="CouponDetail" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="96" y="900" width="274" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-19" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-18">
+          <mxGeometry y="26" width="274" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-20" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-18">
+          <mxGeometry y="52" width="274" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-21" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-18">
+          <mxGeometry y="78" width="274" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-30" value="CouponConditions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="96" y="710" width="270" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-31" value="+ id : Long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-30">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-34" value="+ createDate : Date 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-30">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-35" value="+ modifyDate: Date 修改时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-30">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-32" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-30">
+          <mxGeometry y="104" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1OUxAseQ3Wfj7Y-DSnkB-33" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1OUxAseQ3Wfj7Y-DSnkB-30">
+          <mxGeometry y="130" width="270" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
