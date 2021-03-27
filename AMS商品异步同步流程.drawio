@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T17:00:26.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="di7yV_wtzgYigHM7WvE3" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-27T17:09:56.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="uaqr5XF-O5lXrZGloiLE" version="14.4.9" type="github">
   <diagram id="xK08Ivj7hz9250jyhYq4" name="第 1 页">
     <mxGraphModel dx="1337" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
           <mxGeometry y="312" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-25" value="同步状态&#xa;0. 等待同步&#xa;1. 同步成功&#xa;9. 同步失败" style="text;fillColor=#f5f5f5;spacing=10;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;fontSize=12;strokeColor=#000000;perimeterSpacing=0;strokeWidth=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="520" y="360" width="180" height="90" as="geometry" />
+          <mxGeometry x="520" y="388" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xwSyB9ODohMHiWN5FR5v-21" target="xwSyB9ODohMHiWN5FR5v-25">
           <mxGeometry relative="1" as="geometry">
@@ -57,7 +57,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-30" value="SynchronizationDetails" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="90" y="640" width="340" height="182" as="geometry" />
+          <mxGeometry x="90" y="710" width="340" height="208" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-31" value="+ id: 编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
@@ -77,8 +77,11 @@
         <mxCell id="xwSyB9ODohMHiWN5FR5v-36" value="+ status: 同步状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
           <mxGeometry y="156" width="340" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-46" value="+ result: 同步结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
+          <mxGeometry y="182" width="340" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-37" value="数据同步类型&#xa;1. 渠道商品同步" style="text;spacing=10;spacingTop=0;overflow=hidden;rounded=0;fontSize=12;labelBorderColor=none;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;whiteSpace=wrap;labelBackgroundColor=none;spacingLeft=0;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="540" y="620" width="160" height="80" as="geometry" />
+          <mxGeometry x="520" y="734" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="xwSyB9ODohMHiWN5FR5v-33" target="xwSyB9ODohMHiWN5FR5v-37">
           <mxGeometry relative="1" as="geometry" />
