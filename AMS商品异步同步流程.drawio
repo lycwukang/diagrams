@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T14:17:02.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.4.9" etag="fG4e5OgQyvR2DQG3TSRV" type="github"><diagram id="xK08Ivj7hz9250jyhYq4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-27T15:33:07.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="_7bM3orUkXUsqjS9Uj5S" version="14.4.9" type="github">
+  <diagram id="xK08Ivj7hz9250jyhYq4" name="第 1 页">
+    <mxGraphModel dx="1180" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-3" value="ChannelGoods" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-4" value="ChannelSku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-5" value="Goods" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-6" value="Sku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-8" value="&lt;h1&gt;商品分发规则&lt;/h1&gt;&lt;p&gt;1. 商品以SPU为最小单位进行分发&lt;/p&gt;&lt;p&gt;2. 商品分发与同步需记录过程&lt;/p&gt;&lt;p&gt;3. 商品信息变更后自动同步&lt;/p&gt;&lt;p&gt;5. 商品同步有重发机制&lt;/p&gt;&lt;p&gt;6. 商品最终同步失败后，在系统中显示失败明细，并提供补发功能&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="420" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
