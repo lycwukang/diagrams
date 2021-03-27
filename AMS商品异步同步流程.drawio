@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T16:45:19.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="YL_Ph89QOV9BKxPBMQHR" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-27T16:46:56.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="uXrGqukwLUzxYgKmyFn4" version="14.4.9" type="github">
   <diagram id="xK08Ivj7hz9250jyhYq4" name="第 1 页">
     <mxGraphModel dx="1180" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,8 +45,8 @@
         <mxCell id="xwSyB9ODohMHiWN5FR5v-28" value="+ last_publish_data: 下一次同步时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
           <mxGeometry y="286" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xwSyB9ODohMHiWN5FR5v-25" value="&lt;h1 style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;同步状态&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;0. 等待同步&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;1. 同步成功&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;9. 同步失败&lt;/p&gt;" style="text;html=1;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;fontSize=14;strokeColor=#000000;perimeterSpacing=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="270" width="160" height="120" as="geometry" />
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-25" value="同步状态&#xa;0. 等待同步&#xa;1. 同步成功&#xa;9. 同步失败" style="text;fillColor=#f5f5f5;spacing=10;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;fontSize=14;strokeColor=#000000;perimeterSpacing=0;strokeWidth=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xwSyB9ODohMHiWN5FR5v-21" target="xwSyB9ODohMHiWN5FR5v-25">
           <mxGeometry relative="1" as="geometry">
@@ -62,14 +62,14 @@
         <mxCell id="xwSyB9ODohMHiWN5FR5v-32" value="+ createDate: 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
           <mxGeometry y="52" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xwSyB9ODohMHiWN5FR5v-33" value="+ type: 类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-33" value="+ type: 类型" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
           <mxGeometry y="78" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-36" value="+ type: 类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
           <mxGeometry y="104" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xwSyB9ODohMHiWN5FR5v-37" value="数据同步类型&#xa;1. 渠道商品同步" style="text;spacing=10;spacingTop=0;overflow=hidden;rounded=0;fontSize=14;labelBorderColor=none;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;whiteSpace=wrap;labelBackgroundColor=none;spacingLeft=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="640" width="160" height="80" as="geometry" />
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-37" value="数据同步类型&#xa;1. 渠道商品同步" style="text;spacing=10;spacingTop=0;overflow=hidden;rounded=0;fontSize=14;labelBorderColor=none;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;whiteSpace=wrap;labelBackgroundColor=none;spacingLeft=0;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="530" y="620" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="xwSyB9ODohMHiWN5FR5v-33" target="xwSyB9ODohMHiWN5FR5v-37">
           <mxGeometry relative="1" as="geometry" />
