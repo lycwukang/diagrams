@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T16:01:03.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="zDmQfs41CsQ4pGyyI8ca" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-27T16:31:48.630Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="fSqwzATRQVr31uWRX0sO" version="14.4.9" type="github">
   <diagram id="xK08Ivj7hz9250jyhYq4" name="第 1 页">
     <mxGraphModel dx="1180" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,32 +7,63 @@
         <mxCell id="xwSyB9ODohMHiWN5FR5v-8" value="&lt;h1&gt;商品分发规则&lt;/h1&gt;&lt;p&gt;1. 商品以SPU为最小单位进行分发与同步&lt;/p&gt;&lt;p&gt;2. 商品分发与同步需记录过程&lt;/p&gt;&lt;p&gt;3. 商品信息变更后需自动同步&lt;/p&gt;&lt;p&gt;5. 商品同步需有重发机制，重发间隔为1m，5m，10m，30m，1h&lt;/p&gt;&lt;p&gt;6. 商品最终同步失败后，需反馈给管理员&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="30" width="420" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="xwSyB9ODohMHiWN5FR5v-13" value="ChannelGoods" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="320" width="140" height="234" as="geometry" />
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-13" value="ChannelGoods" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="340" height="312" as="geometry">
+            <mxRectangle x="30" y="250" width="110" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-14" value="+ id: 编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-15" value="+ tenantId: 租户编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
+          <mxGeometry y="52" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-16" value="+ createDate: 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
+          <mxGeometry y="78" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-17" value="+ modifyDate: 更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
-          <mxGeometry y="104" width="140" height="26" as="geometry" />
+          <mxGeometry y="104" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-18" value="+ sn: 编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
-          <mxGeometry y="130" width="140" height="26" as="geometry" />
+          <mxGeometry y="130" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-19" value="+ channelId: 渠道编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
-          <mxGeometry y="156" width="140" height="26" as="geometry" />
+          <mxGeometry y="156" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-20" value="+ goodsId: SPU编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
-          <mxGeometry y="182" width="140" height="26" as="geometry" />
+          <mxGeometry y="182" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xwSyB9ODohMHiWN5FR5v-21" value="+ goodsId: SPU编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
-          <mxGeometry y="208" width="140" height="26" as="geometry" />
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-21" value="+ publish_status: 同步状态" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+          <mxGeometry y="208" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-22" value="+ publish_data: 同步时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+          <mxGeometry y="234" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-29" value="+ publish_details: 同步记录编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+          <mxGeometry y="260" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-28" value="+ last_publish_data: 下一次同步时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+          <mxGeometry y="286" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-25" value="&lt;h1&gt;同步状态&lt;/h1&gt;&lt;p&gt;0. 等待同步&lt;/p&gt;&lt;p&gt;1. 同步成功&lt;/p&gt;&lt;p&gt;9. 同步失败&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xwSyB9ODohMHiWN5FR5v-21" target="xwSyB9ODohMHiWN5FR5v-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-30" value="SynchronizationDetails" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="640" width="340" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-31" value="+ id: 编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-32" value="+ createDate: 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
+          <mxGeometry y="52" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-33" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-30">
+          <mxGeometry y="78" width="340" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
