@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T15:53:30.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="o3HYjYSnlD0L4LLq2S4S" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-27T16:01:03.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="zDmQfs41CsQ4pGyyI8ca" version="14.4.9" type="github">
   <diagram id="xK08Ivj7hz9250jyhYq4" name="第 1 页">
     <mxGraphModel dx="1180" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,9 +8,9 @@
           <mxGeometry x="30" y="30" width="420" height="180" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-13" value="ChannelGoods" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="320" width="140" height="104" as="geometry" />
+          <mxGeometry x="150" y="320" width="140" height="234" as="geometry" />
         </mxCell>
-        <mxCell id="xwSyB9ODohMHiWN5FR5v-14" value="+ id: 租户编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-14" value="+ id: 编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-15" value="+ tenantId: 租户编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
@@ -18,6 +18,21 @@
         </mxCell>
         <mxCell id="xwSyB9ODohMHiWN5FR5v-16" value="+ createDate: 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-17" value="+ modifyDate: 更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-18" value="+ sn: 编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-19" value="+ channelId: 渠道编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-20" value="+ goodsId: SPU编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+          <mxGeometry y="182" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-21" value="+ goodsId: SPU编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xwSyB9ODohMHiWN5FR5v-13">
+          <mxGeometry y="208" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
