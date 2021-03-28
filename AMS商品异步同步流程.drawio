@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-28T15:17:42.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="NYK_ARIqt3NZsyTDBNAF" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-28T15:26:20.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="SAPW63DyN6rP66i24mKM" version="14.4.9" type="github">
   <diagram id="xK08Ivj7hz9250jyhYq4" name="第 1 页">
     <mxGraphModel dx="1229" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
             <mxPoint x="359" y="801" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xwSyB9ODohMHiWN5FR5v-30" value="SynchronizationDetails" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="xwSyB9ODohMHiWN5FR5v-30" value="SyncDetails" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="109" y="1020" width="340" height="234" as="geometry">
             <mxRectangle x="109" y="730" width="200" height="26" as="alternateBounds" />
           </mxGeometry>
