@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T08:31:54.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="oBIxsMiGlqg7bNRsSMib" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T08:38:10.168Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="VFfXeJzdCtm5WIRNwylB" version="14.5.3" type="github">
   <diagram id="IZal-CDfWJfEBjwSl7ik" name="第 1 页">
     <mxGraphModel dx="1481" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,12 +59,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C_QCUCFtFb6yNc336R0_-5" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;labelBackgroundColor=#66FFB3;" vertex="1" parent="1">
-          <mxGeometry x="416" y="80" width="30" height="60" as="geometry" />
+          <mxGeometry x="450" y="70" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C_QCUCFtFb6yNc336R0_-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="C_QCUCFtFb6yNc336R0_-8" target="C_QCUCFtFb6yNc336R0_-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C_QCUCFtFb6yNc336R0_-12" value="激活登录（无token）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="C_QCUCFtFb6yNc336R0_-11">
+        <mxCell id="C_QCUCFtFb6yNc336R0_-12" value="激活登录（无token）&lt;br&gt;并传递登录完成后的&lt;br&gt;回调地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="C_QCUCFtFb6yNc336R0_-11">
           <mxGeometry x="0.025" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
