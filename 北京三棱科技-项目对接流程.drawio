@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T07:57:42.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="8e4FI1PC0qOdDel5HEQC" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T08:05:05.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="cCca5d1yzzf3v8K1brM3" version="14.5.3" type="github">
   <diagram id="IZal-CDfWJfEBjwSl7ik" name="第 1 页">
-    <mxGraphModel dx="1052" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1481" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,8 @@
             <mxPoint x="790" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C_QCUCFtFb6yNc336R0_-3" value="APP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="60" y="350" width="60" height="30" as="geometry" />
+        <mxCell id="C_QCUCFtFb6yNc336R0_-3" value="三棱科技APP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C_QCUCFtFb6yNc336R0_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="C_QCUCFtFb6yNc336R0_-4" target="C_QCUCFtFb6yNc336R0_-8">
           <mxGeometry relative="1" as="geometry">
@@ -19,6 +19,11 @@
               <mxPoint x="270" y="550" />
               <mxPoint x="630" y="550" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-23" value="登录成功，跳转回来并加上token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="C_QCUCFtFb6yNc336R0_-19">
+          <mxGeometry x="-0.028" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C_QCUCFtFb6yNc336R0_-4" value="登录模块" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -51,6 +56,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="C_QCUCFtFb6yNc336R0_-8" target="C_QCUCFtFb6yNc336R0_-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="440" />
+              <mxPoint x="810" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-29" value="通过token查询用户的详细信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="C_QCUCFtFb6yNc336R0_-28">
+          <mxGeometry x="0.0766" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="C_QCUCFtFb6yNc336R0_-8" value="分销商城" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="570" y="400" width="120" height="80" as="geometry" />
         </mxCell>
@@ -60,8 +78,26 @@
             <mxPoint x="784" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C_QCUCFtFb6yNc336R0_-15" value="&lt;h1&gt;登录流程&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="C_QCUCFtFb6yNc336R0_-15" value="&lt;h1&gt;登录流程&lt;/h1&gt;&lt;p&gt;APP内提供登录模块，分销商城进行对接&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="30" y="30" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-24" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="44" y="670" as="sourcePoint" />
+            <mxPoint x="784" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="44" y="950" as="sourcePoint" />
+            <mxPoint x="784" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-26" value="三棱科技API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-27" value="用户API" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="570" y="750" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
