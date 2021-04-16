@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T09:07:07.866Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="n0qZShG_5BhNY4QzUg0O" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T09:10:27.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="W-87T6TdnsO4vaPnd7EG" version="14.5.3" type="github">
   <diagram id="IZal-CDfWJfEBjwSl7ik" name="第 1 页">
     <mxGraphModel dx="1481" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,7 +127,7 @@
             <mxPoint x="154" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C_QCUCFtFb6yNc336R0_-56" value="打开回调地址，&lt;br&gt;打开token" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fontSize=16;" edge="1" parent="C_QCUCFtFb6yNc336R0_-33" target="C_QCUCFtFb6yNc336R0_-48">
+        <mxCell id="C_QCUCFtFb6yNc336R0_-56" value="打开回调地址，&lt;br&gt;传递token" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fontSize=16;" edge="1" parent="C_QCUCFtFb6yNc336R0_-33" target="C_QCUCFtFb6yNc336R0_-48">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="54" y="490" as="sourcePoint" />
             <mxPoint x="114" y="490" as="targetPoint" />
@@ -145,6 +145,9 @@
             <mxPoint x="110" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="C_QCUCFtFb6yNc336R0_-34">
+          <mxGeometry x="45" y="580" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="C_QCUCFtFb6yNc336R0_-35" value="商城前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="286" y="1300" width="100" height="730" as="geometry" />
         </mxCell>
@@ -158,7 +161,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C_QCUCFtFb6yNc336R0_-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="C_QCUCFtFb6yNc336R0_-35">
-          <mxGeometry x="45" y="350" width="10" height="230" as="geometry" />
+          <mxGeometry x="45" y="350" width="10" height="330" as="geometry" />
         </mxCell>
         <mxCell id="C_QCUCFtFb6yNc336R0_-52" value="激活登录" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fontSize=16;" edge="1" parent="C_QCUCFtFb6yNc336R0_-35" target="C_QCUCFtFb6yNc336R0_-33">
           <mxGeometry width="60" relative="1" as="geometry">
@@ -193,6 +196,9 @@
             <mxPoint x="114" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="C_QCUCFtFb6yNc336R0_-36">
+          <mxGeometry x="45" y="540" width="10" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="C_QCUCFtFb6yNc336R0_-37" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="125" y="1390" width="30" height="60" as="geometry" />
         </mxCell>
@@ -205,6 +211,30 @@
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="150" y="1660" as="sourcePoint" />
             <mxPoint x="330" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-58" value="有token" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="340" y="1870" as="sourcePoint" />
+            <mxPoint x="725.5" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-60" value="获取用户信息" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="730" y="1900" as="sourcePoint" />
+            <mxPoint x="939.5" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-61" value="返回查询结果" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="944.5" y="1940" as="sourcePoint" />
+            <mxPoint x="730" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_QCUCFtFb6yNc336R0_-62" value="返回登录信息" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="729" y="1970" as="sourcePoint" />
+            <mxPoint x="340" y="1970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
